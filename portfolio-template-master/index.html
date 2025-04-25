@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+
+  <!-- Put your site title here -->
+  <title>
+    Alin Rodriguez-Gomez | A Novice Web Developer based in East Orange, New Jersey.
+  </title>
+
+  <meta name="description" content="Add small description of yourslef.">
+  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+  <meta name="keywords" content="Hello! My name is Alin, and I have a basic understanding of JavaScript and HTML, as well as some knowledge regarding Java programming. My real specialty is configuring and maintaining network systems and architectures." />
+  <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+
+  <!-- ***** Header ***** -->
+
+  <header class="header" role="banner" id="top">
+    <div class="row">
+      <nav class="nav" role="navigation">
+        <ul class="nav__items">
+          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+          <li class="nav__item">
+            <a href="#about" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#contact" class="nav__link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="header__text-box row">
+      <div class="header__text">
+        <h1 class="heading-primary">
+          <!-- Replace the following name with your name -->
+          <span>Alin Rodriguez-Gomez</span>
+        </h1>
+        <!-- Put a small paragraph about yourself -->
+        <p>I Am a student studying Cybersecurity & Network Technology at Essex County College. Since the age of fifteen, I've become extremely passionate about networking, seeking to better understand how the infrastructure behind the Internet actuallly functions. For that reason is why I do what I do today.</p>
+        <a href="#contact" class="btn btn--pink">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <main role="main">
+
+    <!-- ***** Work ***** -->
+
+    <section class="work" id="work">
+      <div class="row">
+        <h2>My Work</h2>
+        <div class="work__boxes">
+
+          <!-- Each div with the work__box class is a project. -->
+
+          <div class="work__box">
+            <div class="work__text">
+              <h3>CSC250 Capstone Project</h3>
+              <p>
+                Scam Checker Database
+              </p>
+              <ul class="work__list">
+                <li>HTML</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+              </ul>
+
+              <div class="work__links">
+                <a href="https://github.com/mynameisalin" target="_blank" class="link__text">
+                  Visit Site <span>&rarr;</span>
+                </a>
+                <a href="https://github.com/mynameisalin" title="View Source Code" target="_blank">
+                  <img src="./images/github.svg" class="work__code" alt="GitHub">
+                </a>
+              </div>
+            </div>
+            <div class="work__image-box">
+              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ***** About ***** -->
+
+    <section class="about" id="about">
+      <div class="row">
+        <h2>About Me</h2>
+        <div class="about__content">
+          <div class="about__text">
+            <!-- Replace the below paragraph with info about yourself -->
+            <p>
+              I'm a 22 year old Cybersecurity & Network Technology student at Essex County College. 
+              At the moment, I am looking to graduate in the Spring of 2025 with an Associate's of Applied Science, as well as complete a few CompTIA certifications. 
+              Since my days as a student at Technology High School, I fell in love with computer networking and configuration; since then I've carried that love into my adult years, 
+              hoping to build a meaningful career with the skills that I've acquired along the way.
+            </p>
+            <!-- Provide a link to your resume -->
+            <a href="#" class="btn"></a>
+          </div>
+
+          <div class="about__photo-container">
+            <!-- Add a nice photo of yourself -->
+            <img class="about__photo" src="https://media.licdn.com/dms/image/v2/D4E03AQFdEypBBBgxJA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1677896291138?e=1750896000&v=beta&t=XSOhVYZ1KO2p8ueLWvTr2bFoJ9MsvqgQj0JX7xxq_Bk" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ***** Contact ***** -->
+
+  <section class="contact" id="contact">
+    <div class="row">
+      <h2>Get in Touch</h2>
+      <div class="contact__info">
+        <p>
+          Are you looking for a fast-performing and user-friendly website to
+          represent your product or business? or looking for any kind of
+          consultation? or want to ask questions? or have some advice for me
+          or just want to say "Hi"? In any case feel free to let me know. I
+          will do my best to respond back. The quickest way to reach out to
+          me is via an email.
+        </p>
+        <!-- Replace the email with yours -->
+        <a href="mailto:you@example.com" class="btn">alinmarc8802@gmail.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ***** Footer ***** -->
+
+  <footer role="contentinfo" class="footer">
+    <div class="row">
+      <!-- Update the links to point to your accounts -->
+      <ul class="footer__social-links">
+        <li class="footer__social-link-item">
+          <a href="https://github.com/mynameisalin/" title="Link to Github Profile">
+            <img src="./images/github.svg" class="footer__social-image" alt="Github">
+          </a>
+        </li>
+        <li class="footer__social-link-item">
+          <a href="https://www.linkedin.com/in/alin-rodriguez-gomez-6499821ab/">
+            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+
+  <a href="#top" class="back-to-top" title="Back to Top">
+    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
+  </a>
+  <script src="./index.js"></script>
+</body>
+
+</html>
